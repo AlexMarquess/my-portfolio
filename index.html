@@ -3,318 +3,215 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alex Marques | Portfolio ASIX</title>
-  <meta name="description" content="Portfolio profesional de Alex Marques, estudiante de ASIX. Sistemas, redes, ciberseguridad, cloud y proyectos IT.">
-  <meta name="author" content="Alex Marques">
-  <meta name="theme-color" content="#0d1321">
-
-  <meta property="og:title" content="Alex Marques | Portfolio ASIX">
-  <meta property="og:description" content="Administrador de sistemas en formación. Portfolio profesional orientado a ASIX, sistemas, redes, cloud y ciberseguridad.">
+  <title>Alex Marquès | Portfolio ASIX</title>
+  <meta name="description" content="Portfolio profesional de Alex Marquès. Sistemas, redes, ciberseguridad, cloud, automatización y proyectos ASIX.">
+  <meta name="author" content="Alex Marquès">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:title" content="Alex Marquès | Portfolio ASIX">
+  <meta property="og:description" content="Administrador de sistemas en formación. Proyectos ASIX, ciberseguridad, Docker, monitorización y automatización.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/preview.png">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta property="og:image" content="img/preview.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header" id="inicio">
-    <div class="container nav-wrap">
-      <a class="brand" href="#inicio">
-        <span class="brand-mark">AM</span>
-        <span class="brand-text">Alex Marques</span>
-      </a>
-
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="site-nav" id="siteNav">
-        <a href="#sobre-mi">Sobre mí</a>
+  <div class="bg-grid"></div>
+  <header class="hero" id="inicio">
+    <nav class="topbar">
+      <a class="logo" href="#inicio">Alex<span>Marquès</span></a>
+      <div class="nav-links">
+        <a href="#perfil">Perfil</a>
         <a href="#competencias">Competencias</a>
-        <a href="#especializacion">Especialización</a>
-        <a href="#formacion">Plan</a>
         <a href="#proyectos">Proyectos</a>
+        <a href="#formacion">Plan</a>
         <a href="#contacto">Contacto</a>
-      </nav>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">PORTFOLIO PROFESIONAL · ASIX</p>
+      <h1>Construyo mi perfil profesional<br><span>paso a paso, proyecto a proyecto.</span></h1>
+      <p class="lead">
+        Soy estudiante de ASIX y oriento mi perfil a la administración de sistemas, redes, ciberseguridad, automatización e infraestructuras Linux. Este sitio resume quién soy, qué sé hacer y hacia dónde quiero crecer profesionalmente.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-secondary" href="#contacto">Contacto</a>
+      </div>
+      <div class="scroll-down">
+        <span>Desplázate</span>
+        <div class="mouse"><div></div></div>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Portfolio profesional · ASIX · GitHub Pages</p>
-          <h1>Administrador de sistemas en formación con foco en <span>sistemas, redes, cloud y ciberseguridad</span>.</h1>
-          <p class="hero-text">
-            Soy estudiante de ASIX y estoy construyendo un perfil profesional orientado a la administración de sistemas,
-            la monitorización, la automatización de infraestructuras y la seguridad. En este espacio reúno mi trayectoria,
-            competencias, proyectos técnicos y objetivos profesionales.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
-            <a class="btn btn-secondary" href="#contacto">Contactar</a>
-          </div>
-
-          <ul class="hero-points">
-            <li>Infraestructura Linux y Windows</li>
-            <li>Redes, servicios y virtualización</li>
-            <li>Docker, automatización y observabilidad</li>
-          </ul>
-        </div>
-
-        <aside class="hero-card reveal delay-1">
-          <div class="profile-box">
-            <div class="avatar">AM</div>
-            <h2>Alex Marques</h2>
-            <p class="role">Estudiante de ASIX</p>
-            <p class="location">Perfil orientado a administración de sistemas, redes y ciberseguridad</p>
-          </div>
-
-          <div class="mini-panel">
-            <h3>Objetivo profesional</h3>
-            <p>Desarrollarme como técnico de sistemas, soporte de infraestructura, administrador Linux o perfil junior de ciberseguridad y operaciones IT.</p>
-          </div>
-
-          <div class="mini-panel">
-            <h3>Presencia profesional</h3>
-            <ul class="link-list">
-              <li><a href="https://github.com/tuusuario" target="_blank" rel="noreferrer">GitHub</a></li>
-              <li><a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noreferrer">LinkedIn</a></li>
-              <li><a href="mailto:tuemail@correo.com">Correo profesional</a></li>
-            </ul>
-          </div>
-        </aside>
+    <section class="section intro reveal" id="perfil">
+      <div class="section-mark">01</div>
+      <div class="section-body card large">
+        <p class="section-kicker">PERFIL PROFESIONAL</p>
+        <h2>Quién soy y qué valor aporto</h2>
+        <p>
+          Me estoy formando en el ámbito de los sistemas informáticos y redes con un enfoque muy práctico. Me interesa diseñar, desplegar y mantener infraestructuras seguras, documentadas y funcionales. Disfruto trabajando con entornos Linux, servicios en red, contenedores, monitorización y herramientas de seguridad.
+        </p>
+        <p>
+          Mi forma de trabajar se basa en la constancia, el aprendizaje continuo y la mejora técnica. Busco seguir desarrollándome en áreas como administración de sistemas, ciberseguridad defensiva, cloud y automatización.
+        </p>
       </div>
     </section>
 
-    <section class="section" id="sobre-mi">
-      <div class="container section-grid intro-grid">
-        <div class="section-heading reveal">
-          <p class="eyebrow">1. Inicio</p>
-          <h2>Quién soy y qué representa este portfolio</h2>
+    <section class="section reveal" id="competencias">
+      <div class="section-mark">02</div>
+      <div class="section-body">
+        <div class="section-heading">
+          <p class="section-kicker">CURRÍCULUM POR COMPETENCIAS</p>
+          <h2>Competencias técnicas y profesionales</h2>
         </div>
+        <div class="competency-grid">
+          <article class="card competency">
+            <h3>Sistemas</h3>
+            <p>Instalación, configuración y mantenimiento de sistemas Linux y Windows. Gestión básica de usuarios, servicios, permisos, actualizaciones y resolución de incidencias.</p>
+          </article>
+          <article class="card competency">
+            <h3>Redes</h3>
+            <p>Configuración de red, conectividad, servicios básicos, segmentación, comprobación de tráfico y análisis funcional de entornos de comunicaciones.</p>
+          </article>
+          <article class="card competency">
+            <h3>Ciberseguridad</h3>
+            <p>Aplicación de medidas de protección, uso de IDS/IPS, reglas de detección, revisión de logs, alertas y respuesta básica ante incidentes.</p>
+          </article>
+          <article class="card competency">
+            <h3>Contenedores y servicios</h3>
+            <p>Despliegue de servicios con Docker y Docker Compose, organización de stacks y pruebas de funcionamiento en entornos de laboratorio.</p>
+          </article>
+          <article class="card competency">
+            <h3>Automatización</h3>
+            <p>Automatización de tareas con herramientas como Ansible para ganar consistencia, rapidez de despliegue y repetibilidad.</p>
+          </article>
+          <article class="card competency">
+            <h3>Competencias transversales</h3>
+            <p>Capacidad de documentación, organización del trabajo, seguimiento de proyectos, aprendizaje autónomo y orientación a mejora continua.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <article class="card reveal delay-1">
+    <section class="section reveal" id="especializacion">
+      <div class="section-mark">03</div>
+      <div class="section-body split">
+        <article class="card accent">
+          <p class="section-kicker">ÁMBITO DE ESPECIALIZACIÓN</p>
+          <h2>Mi dirección profesional dentro de ASIX</h2>
           <p>
-            Este sitio está planteado como mi espacio de presentación profesional. Resume quién soy, qué sé hacer,
-            hacia qué área quiero orientar mi carrera y qué pasos estoy siguiendo para consolidar mi perfil dentro del ámbito ASIX.
+            Mi interés principal se sitúa en la administración de sistemas y la ciberseguridad defensiva. Me atrae especialmente la parte de hardening, monitorización, análisis de eventos, despliegue de servicios y automatización de entornos técnicos.
           </p>
-          <p>
-            Mi forma de trabajar se basa en el aprendizaje continuo, la documentación técnica, la resolución práctica de incidencias,
-            la mejora progresiva de entornos y el interés por construir soluciones útiles y bien organizadas.
-          </p>
+        </article>
+        <article class="card stack-list">
+          <h3>Tecnologías y áreas</h3>
+          <ul>
+            <li>Linux y administración de servidores</li>
+            <li>Docker y virtualización</li>
+            <li>Monitorización con Zabbix y dashboards</li>
+            <li>IDS/IPS con Suricata, Snort o herramientas similares</li>
+            <li>Automatización con Ansible</li>
+            <li>Redes, seguridad y documentación técnica</li>
+          </ul>
         </article>
       </div>
     </section>
 
-    <section class="section alt" id="competencias">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">2. Currículum por competencias</p>
-          <h2>Competencias técnicas y transversales</h2>
-          <p>La estructura sigue el enfoque del IPOP: destacar habilidades técnicas, habilidades transversales y aquello que define tu valor como futuro profesional. </p>
+    <section class="section reveal" id="proyectos">
+      <div class="section-mark">04</div>
+      <div class="section-body">
+        <div class="section-heading">
+          <p class="section-kicker">PROYECTOS DESTACADOS</p>
+          <h2>Experiencia aplicada en proyectos ASIX</h2>
         </div>
-
-        <div class="cards-2">
-          <article class="card reveal">
-            <h3>Competencias técnicas</h3>
-            <div class="chips">
-              <span>Linux</span>
-              <span>Windows</span>
-              <span>Redes TCP/IP</span>
-              <span>DNS / DHCP</span>
-              <span>Virtualización</span>
-              <span>Docker</span>
-              <span>Ansible</span>
-              <span>Zabbix</span>
-              <span>Suricata / Snort</span>
-              <span>Firewall</span>
-              <span>Git / GitHub</span>
-              <span>Documentación técnica</span>
-            </div>
-            <p>
-              Capacidad para instalar, configurar y validar servicios; desplegar entornos de laboratorio; monitorizar sistemas;
-              automatizar configuraciones; aplicar medidas básicas de seguridad; y documentar procedimientos técnicos de forma clara.
-            </p>
-          </article>
-
-          <article class="card reveal delay-1">
-            <h3>Competencias transversales</h3>
-            <div class="chips chips-soft">
-              <span>Trabajo en equipo</span>
-              <span>Adaptación</span>
-              <span>Resolución de problemas</span>
-              <span>Organización</span>
-              <span>Aprendizaje continuo</span>
-              <span>Comunicación</span>
-              <span>Responsabilidad</span>
-              <span>Autonomía</span>
-            </div>
-            <p>
-              Me interesa trabajar con método, objetivos claros y evidencias reales de funcionamiento. Me adapto a contextos nuevos,
-              mantengo una actitud práctica y procuro mejorar tanto la parte técnica como la manera de presentar y defender el trabajo realizado.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="especializacion">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">3. Ámbito de especialización</p>
-          <h2>Hacia dónde quiero orientar mi carrera</h2>
-        </div>
-
-        <div class="cards-3">
-          <article class="card reveal">
-            <h3>Administración de sistemas</h3>
-            <p>Me interesa trabajar con servidores, servicios, usuarios, almacenamiento, redes y soporte técnico de infraestructura.</p>
-          </article>
-          <article class="card reveal delay-1">
-            <h3>Ciberseguridad aplicada</h3>
-            <p>Especialmente en detección, endurecimiento, monitorización, análisis de eventos y respuesta básica ante incidentes.</p>
-          </article>
-          <article class="card reveal delay-2">
-            <h3>Cloud y automatización</h3>
-            <p>Quiero seguir avanzando en despliegues reproducibles, contenedores, herramientas de automatización y observabilidad.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="formacion">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">4. Plan de formación o proyecto profesional</p>
-          <h2>Próximos pasos para consolidar mi perfil</h2>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item reveal">
-            <span class="step">Paso 1</span>
+        <div class="project-timeline">
+          <article class="card project-item">
+            <span class="project-number">01</span>
             <div>
-              <h3>Consolidar la base ASIX</h3>
-              <p>Finalizar el ciclo reforzando administración de sistemas, servicios de red, seguridad, scripting, documentación técnica y despliegue de infraestructuras.</p>
+              <h3>Laboratorio IDS/IPS con Suricata</h3>
+              <p>Diseño de un entorno de detección y prevención de intrusiones, creación de reglas personalizadas, análisis de tráfico y validación de alertas en un laboratorio técnico.</p>
             </div>
           </article>
-          <article class="timeline-item reveal delay-1">
-            <span class="step">Paso 2</span>
+          <article class="card project-item">
+            <span class="project-number">02</span>
             <div>
-              <h3>Construir experiencia práctica</h3>
-              <p>Seguir desarrollando laboratorios reales y proyectos demostrables orientados a monitorización, automatización, ciberseguridad, contenedores y soporte de sistemas.</p>
+              <h3>Monitorización con Zabbix</h3>
+              <p>Implementación de monitorización de hosts y servicios, definición de umbrales, creación de triggers y visualización de métricas en dashboards.</p>
             </div>
           </article>
-          <article class="timeline-item reveal delay-2">
-            <span class="step">Paso 3</span>
+          <article class="card project-item">
+            <span class="project-number">03</span>
             <div>
-              <h3>Mejorar visibilidad profesional</h3>
-              <p>Mantener actualizado GitHub, portfolio web, CV y LinkedIn para mostrar evidencias reales, evolución técnica y enfoque profesional.</p>
+              <h3>Automatización de configuraciones</h3>
+              <p>Uso de Ansible para desplegar configuraciones y aplicar cambios de forma repetible, ordenada y documentada en varios sistemas.</p>
             </div>
           </article>
-          <article class="timeline-item reveal delay-3">
-            <span class="step">Paso 4</span>
+          <article class="card project-item">
+            <span class="project-number">04</span>
             <div>
-              <h3>Especialización progresiva</h3>
-              <p>Valorar formación adicional en ciberseguridad, cloud, administración Linux, automatización y certificaciones alineadas con el rol profesional elegido.</p>
+              <h3>Entornos con Docker</h3>
+              <p>Despliegue de servicios y aplicaciones en contenedores, pruebas funcionales, organización de ficheros y comprensión de la lógica de infraestructuras modernas.</p>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="proyectos">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Portfolio técnico</p>
-          <h2>Proyectos destacados</h2>
-          <p>Ejemplos alineados con un perfil ASIX y preparados para presentarse en GitHub Pages.</p>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card reveal">
-            <span class="project-tag">Monitorización</span>
-            <h3>Laboratorio Zabbix</h3>
-            <p>Implementación de monitorización de red y servicios, creación de dashboards, umbrales, alertas y validación de métricas.</p>
-            <a href="#contacto">Ver más</a>
-          </article>
-
-          <article class="project-card reveal delay-1">
-            <span class="project-tag">Seguridad</span>
-            <h3>Proyecto IDS/IPS</h3>
-            <p>Diseño de un entorno con Suricata o Snort, reglas personalizadas, análisis de alertas y respuesta básica ante eventos detectados.</p>
-            <a href="#contacto">Ver más</a>
-          </article>
-
-          <article class="project-card reveal delay-2">
-            <span class="project-tag">Automatización</span>
-            <h3>Automatización con Ansible</h3>
-            <p>Despliegue y configuración de nodos, playbooks reutilizables, validación del estado final y documentación del proceso.</p>
-            <a href="#contacto">Ver más</a>
-          </article>
-
-          <article class="project-card reveal">
-            <span class="project-tag">Contenedores</span>
-            <h3>Infraestructura Docker</h3>
-            <p>Servicios contenerizados, redes, persistencia, despliegue de stacks y pruebas funcionales en entornos reproducibles.</p>
-            <a href="#contacto">Ver más</a>
-          </article>
-
-          <article class="project-card reveal delay-1">
-            <span class="project-tag">Cloud</span>
-            <h3>Soluciones digitales y cloud</h3>
-            <p>Análisis de necesidades, propuesta tecnológica, enfoque de mejora digital y presentación estructurada de la solución.</p>
-            <a href="#contacto">Ver más</a>
-          </article>
-
-          <article class="project-card reveal delay-2">
-            <span class="project-tag">Trayectoria</span>
-            <h3>Evolución profesional</h3>
-            <p>Espacio para reflejar experiencia de prácticas, movilidad Erasmus, aprendizaje aplicado y crecimiento profesional continuo.</p>
-            <a href="#contacto">Ver más</a>
-          </article>
-        </div>
+    <section class="section reveal" id="formacion">
+      <div class="section-mark">05</div>
+      <div class="section-body split">
+        <article class="card">
+          <p class="section-kicker">PLAN DE FORMACIÓN</p>
+          <h2>Cómo quiero seguir creciendo</h2>
+          <p>
+            Mi objetivo es continuar mejorando mis conocimientos técnicos y construir un perfil sólido orientado al mundo laboral. Quiero seguir profundizando en administración de sistemas, seguridad, automatización, cloud y gestión profesional de infraestructuras.
+          </p>
+        </article>
+        <article class="card roadmap">
+          <h3>Siguientes pasos</h3>
+          <ul>
+            <li>Consolidar base técnica en Linux, redes y servicios</li>
+            <li>Refuerzar conocimientos de ciberseguridad</li>
+            <li>Mejorar despliegues y automatizaciones</li>
+            <li>Ampliar portfolio con proyectos reales y bien documentados</li>
+            <li>Acceder a prácticas o primer empleo técnico en IT</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section class="section alt" id="contacto">
-      <div class="container contact-grid">
-        <div class="section-heading reveal">
-          <p class="eyebrow">5. Contacto</p>
-          <h2>Contacto profesional</h2>
-          <p>Sección pensada para que cualquier profesor, empresa o reclutador pueda localizarte rápidamente.</p>
-        </div>
-
-        <div class="contact-box reveal delay-1">
-          <div class="contact-item">
-            <span>Correo</span>
-            <a href="mailto:tuemail@correo.com">tuemail@correo.com</a>
+    <section class="section reveal" id="contacto">
+      <div class="section-mark">06</div>
+      <div class="section-body card contact-card">
+        <p class="section-kicker">CONTACTO</p>
+        <h2>¿Hablamos?</h2>
+        <p>Puedes utilizar este espacio para dejar tus datos profesionales y facilitar el contacto para prácticas, colaboraciones o futuras oportunidades.</p>
+        <div class="contact-grid">
+          <div>
+            <span>Email</span>
+            <strong>tuemail@correo.com</strong>
           </div>
-          <div class="contact-item">
+          <div>
             <span>GitHub</span>
-            <a href="https://github.com/tuusuario" target="_blank" rel="noreferrer">github.com/tuusuario</a>
+            <strong>github.com/alexmarquess</strong>
           </div>
-          <div class="contact-item">
+          <div>
             <span>LinkedIn</span>
-            <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noreferrer">linkedin.com/in/tuusuario</a>
+            <strong>Añade aquí tu perfil</strong>
           </div>
-          <div class="contact-item">
+          <div>
             <span>Ubicación</span>
-            <p>Blanes / Girona · Disponible para prácticas, soporte IT y proyectos junior</p>
+            <strong>Blanes / Girona</strong>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <p>© <span id="year"></span> Alex Marques · Portfolio profesional ASIX</p>
-      <a href="#inicio">Volver arriba</a>
-    </div>
+  <footer class="footer">
+    <p>© 2026 Alex Marquès · Portfolio profesional ASIX</p>
   </footer>
 
   <script src="script.js"></script>
